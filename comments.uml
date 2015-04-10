@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EWxO0M5KEeSOYukg-oDSKg" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_aHTi8M5KEeSOYukg-oDSKg" name="UserResource">
+    <ownedAttribute xmi:id="_Rv2CIM7hEeSWZ5_v0e1ihw" name="man" type="_DzjiIM5MEeSOYukg-oDSKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Rv2pMM7hEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Rv3QQM7hEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_2HiTgM5KEeSOYukg-oDSKg" name="createUser">
+      <ownedParameter xmi:id="_OW-TAM5LEeSOYukg-oDSKg" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_-qmPkM7gEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iZeYAM5LEeSOYukg-oDSKg" name="updateUser">
+      <ownedParameter xmi:id="_qP3sgM5LEeSOYukg-oDSKg" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_jw1zkM5LEeSOYukg-oDSKg" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="__T0LsM7gEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_oEUa8M5LEeSOYukg-oDSKg" name="getUsers">
+      <ownedParameter xmi:id="_A00rcM7hEeSWZ5_v0e1ihw" type="_kvPoMM7dEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_2rvXUM5LEeSOYukg-oDSKg" name="deleteUser">
+      <ownedParameter xmi:id="_2rvXUc5LEeSOYukg-oDSKg" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-dAJoM5KEeSOYukg-oDSKg" name="User">
+    <ownedAttribute xmi:id="_EeMQAM5LEeSOYukg-oDSKg" name="userid">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EeNeIM5LEeSOYukg-oDSKg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EeNeIc5LEeSOYukg-oDSKg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HZ3W8M5LEeSOYukg-oDSKg" name="username">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HZ3-AM5LEeSOYukg-oDSKg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HZ3-Ac5LEeSOYukg-oDSKg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TomlcM7fEeSWZ5_v0e1ihw" name="messages" type="_-9Q-0M7eEeSWZ5_v0e1ihw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tomlcc7fEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tomlcs7fEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_T-xB8M5LEeSOYukg-oDSKg" name="User"/>
+    <ownedOperation xmi:id="_WwOc8M5LEeSOYukg-oDSKg" name="getUsername">
+      <ownedParameter xmi:id="_48lOwM7eEeSWZ5_v0e1ihw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_XDAPAM5LEeSOYukg-oDSKg" name="setUsername">
+      <ownedParameter xmi:id="_ZPVjsM5LEeSOYukg-oDSKg" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_jcXGcM5NEeSOYukg-oDSKg" name="getUserid">
+      <ownedParameter xmi:id="_62_F8M7eEeSWZ5_v0e1ihw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_jcXGcc5NEeSOYukg-oDSKg" name="setUserid">
+      <ownedParameter xmi:id="_jcXGcs5NEeSOYukg-oDSKg" name="userid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ZR6XUs7fEeSWZ5_v0e1ihw" name="getMessages">
+      <ownedParameter xmi:id="_gSmL0M7fEeSWZ5_v0e1ihw" type="_-9Q-0M7eEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_bIRcAM7fEeSWZ5_v0e1ihw" name="setMessages">
+      <ownedParameter xmi:id="_bIRcAc7fEeSWZ5_v0e1ihw" name="messages" type="_-9Q-0M7eEeSWZ5_v0e1ihw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DzjiIM5MEeSOYukg-oDSKg" name="ManagerImpl">
+    <ownedAttribute xmi:id="_F68scM5MEeSOYukg-oDSKg" name="instance" visibility="private" isStatic="true" type="_DzjiIM5MEeSOYukg-oDSKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F69TgM5MEeSOYukg-oDSKg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F69Tgc5MEeSOYukg-oDSKg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_M8Fz8M5MEeSOYukg-oDSKg" name="ManagerImpl"/>
+    <ownedOperation xmi:id="_PNgc8M5MEeSOYukg-oDSKg" name="getInstance"/>
+    <ownedOperation xmi:id="_QNq6MM7gEeSWZ5_v0e1ihw" name="createUser">
+      <ownedParameter xmi:id="_QNq6Mc7gEeSWZ5_v0e1ihw" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_QNq6Ms7gEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QbnPkM7gEeSWZ5_v0e1ihw" name="updateUser">
+      <ownedParameter xmi:id="_QbnPkc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QbnPks7gEeSWZ5_v0e1ihw" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_QbnPk87gEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QoRykM7gEeSWZ5_v0e1ihw" name="getUsers">
+      <ownedParameter xmi:id="_QoRykc7gEeSWZ5_v0e1ihw" type="_kvPoMM7dEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QzkckM7gEeSWZ5_v0e1ihw" name="deleteUser">
+      <ownedParameter xmi:id="_Qzkckc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_RA01cM7gEeSWZ5_v0e1ihw" name="addMessage">
+      <ownedParameter xmi:id="_RA01cc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RA01cs7gEeSWZ5_v0e1ihw" name="m" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_RA01c87gEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_RPSvQM7gEeSWZ5_v0e1ihw" name="updateMessage">
+      <ownedParameter xmi:id="_RPSvQc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RPSvQs7gEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RPSvQ87gEeSWZ5_v0e1ihw" name="message" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_RPSvRM7gEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_RtzQMM7gEeSWZ5_v0e1ihw" name="getMessages">
+      <ownedParameter xmi:id="_RtzQMc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_RtzQMs7gEeSWZ5_v0e1ihw" type="_-9Q-0M7eEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_SIiEYM7gEeSWZ5_v0e1ihw" name="deleteMessage">
+      <ownedParameter xmi:id="_SIiEYc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_SIiEYs7gEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__MGZYM5MEeSOYukg-oDSKg" name="Message">
+    <ownedAttribute xmi:id="__MGZYc5MEeSOYukg-oDSKg" name="commentid">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MGZYs5MEeSOYukg-oDSKg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MGZY85MEeSOYukg-oDSKg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__MGZZM5MEeSOYukg-oDSKg" name="content">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MGZZc5MEeSOYukg-oDSKg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MGZZs5MEeSOYukg-oDSKg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="__MGZaM5MEeSOYukg-oDSKg" name="getContent">
+      <ownedParameter xmi:id="_33jOcM7gEeSWZ5_v0e1ihw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="__MGZac5MEeSOYukg-oDSKg" name="setContent">
+      <ownedParameter xmi:id="__MGZas5MEeSOYukg-oDSKg" name="content">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Hl0dYM5NEeSOYukg-oDSKg" name="getCommentid">
+      <ownedParameter xmi:id="_45IAMM7gEeSWZ5_v0e1ihw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Hl0dYc5NEeSOYukg-oDSKg" name="setCommentid">
+      <ownedParameter xmi:id="_Hl0dYs5NEeSOYukg-oDSKg" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Uf99MM7dEeSWZ5_v0e1ihw" name="Manager">
+    <ownedAttribute xmi:id="_bbvAAM7eEeSWZ5_v0e1ihw" name="users" type="_kvPoMM7dEeSWZ5_v0e1ihw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bbwOIM7eEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bbw1MM7eEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_gwQNoM7eEeSWZ5_v0e1ihw" name="createUser">
+      <ownedParameter xmi:id="_iXgfUM7eEeSWZ5_v0e1ihw" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_qB4UkM7fEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_zxYfwc7fEeSWZ5_v0e1ihw" name="updateUser">
+      <ownedParameter xmi:id="_zxYfws7fEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_zxYfw87fEeSWZ5_v0e1ihw" name="user" type="_-dAJoM5KEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_6hTUYM7fEeSWZ5_v0e1ihw" type="_-dAJoM5KEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1Is4AM7fEeSWZ5_v0e1ihw" name="getUsers">
+      <ownedParameter xmi:id="_77QJ4M7fEeSWZ5_v0e1ihw" type="_kvPoMM7dEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1bMWMM7fEeSWZ5_v0e1ihw" name="deleteUser">
+      <ownedParameter xmi:id="_1bMWMc7fEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_97Hv6c7fEeSWZ5_v0e1ihw" name="addMessage">
+      <ownedParameter xmi:id="_97Hv6s7fEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_97Hv687fEeSWZ5_v0e1ihw" name="m" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_ETBtIM7gEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_BWZj8M7gEeSWZ5_v0e1ihw" name="updateMessage">
+      <ownedParameter xmi:id="_BWZj8c7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_BWZj8s7gEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_BWZj887gEeSWZ5_v0e1ihw" name="message" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_FqdaIM7gEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Bx07sM7gEeSWZ5_v0e1ihw" name="getMessages">
+      <ownedParameter xmi:id="_Bx07sc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_HRQ_4M7gEeSWZ5_v0e1ihw" type="_-9Q-0M7eEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_CiBCgM7gEeSWZ5_v0e1ihw" name="deleteMessage">
+      <ownedParameter xmi:id="_CiBCgc7gEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_CiBCgs7gEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kvPoMM7dEeSWZ5_v0e1ihw" name="UserCollection">
+    <ownedAttribute xmi:id="_kvPoMc7dEeSWZ5_v0e1ihw" name="users">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kvPoMs7dEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kvPoM87dEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_kvPoN87dEeSWZ5_v0e1ihw" name="UserCollection"/>
+    <ownedOperation xmi:id="_kvQPQM7dEeSWZ5_v0e1ihw" name="getUsers"/>
+    <ownedOperation xmi:id="_kvQPQc7dEeSWZ5_v0e1ihw" name="setUsers">
+      <ownedParameter xmi:id="_RTEG4M7eEeSWZ5_v0e1ihw" name="users"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-9Q-0M7eEeSWZ5_v0e1ihw" name="MessageCollection">
+    <ownedAttribute xmi:id="_IS3cQM7fEeSWZ5_v0e1ihw" name="comments">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IS3cQc7fEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IS3cQs7fEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Im_5MM7fEeSWZ5_v0e1ihw" name="MessageCollection"/>
+    <ownedOperation xmi:id="_I0mQUM7fEeSWZ5_v0e1ihw" name="getComments"/>
+    <ownedOperation xmi:id="_JE1rwM7fEeSWZ5_v0e1ihw" name="setComments">
+      <ownedParameter xmi:id="_JE1rwc7fEeSWZ5_v0e1ihw" name="users"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BxDDIM7hEeSWZ5_v0e1ihw" name="MessageResource">
+    <ownedAttribute xmi:id="_VSIdIM7hEeSWZ5_v0e1ihw" name="man" type="_DzjiIM5MEeSOYukg-oDSKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VSIdIc7hEeSWZ5_v0e1ihw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VSIdIs7hEeSWZ5_v0e1ihw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_IrJugM7hEeSWZ5_v0e1ihw" name="addMessage">
+      <ownedParameter xmi:id="_IrJugc7hEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_IrJugs7hEeSWZ5_v0e1ihw" name="m" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_IrJug87hEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_I2gp8M7hEeSWZ5_v0e1ihw" name="updateMessage">
+      <ownedParameter xmi:id="_I2gp8c7hEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_I2gp8s7hEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_I2gp887hEeSWZ5_v0e1ihw" name="message" type="__MGZYM5MEeSOYukg-oDSKg"/>
+      <ownedParameter xmi:id="_I2gp9M7hEeSWZ5_v0e1ihw" type="__MGZYM5MEeSOYukg-oDSKg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_JE65YM7hEeSWZ5_v0e1ihw" name="getMessages">
+      <ownedParameter xmi:id="_JE65Yc7hEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_JE65Ys7hEeSWZ5_v0e1ihw" type="_-9Q-0M7eEeSWZ5_v0e1ihw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_JiAeAM7hEeSWZ5_v0e1ihw" name="deleteMessage">
+      <ownedParameter xmi:id="_JiAeAc7hEeSWZ5_v0e1ihw" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_JiAeAs7hEeSWZ5_v0e1ihw" name="commentid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OCY_UM7pEeSWZ5_v0e1ihw" client="_DzjiIM5MEeSOYukg-oDSKg" supplier="_Uf99MM7dEeSWZ5_v0e1ihw"/>
+</uml:Model>
